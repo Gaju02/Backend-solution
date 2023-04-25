@@ -43,7 +43,7 @@ How to stop:
 To shut down the server, we need to press the CTRL+C combination in the command prompt or manually stop the server if it was launched in an IDE environment, such as IntelliJ.
 
 
-*I have also included a folder with photos showing the process of the server running after entering the above commands. It can be found in the repository in a folder named: photosOfRunningServer :).
+*I have also included a folder with photos showing the process of the server running after entering the above commands. It can be found in the repository in a directory named: photosOfRunningServer :).
 
 
 Update: 25.04.2023 15:23 
