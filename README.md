@@ -2,16 +2,19 @@
 This is a solution of Backend-section task.  
 
 About:
+
 The entire code of the program has been posted in the repository in the directory demo\src\main\java\projektNBP\demo under the name NBPController. The project was written in Java language JDK 17 version and SpringBoot framework. 
 
 
 How to start:
+
 To start the server, you need to enter this command in the terminal in the directory where the app.jar file is located. This application is located in "\demo\target'': 
 
 java - jar app.jar
 
 
 Operations:
+
 After entering the above command, our server started and we can now use three operations: currency, quotes, difference based on the number of quotations, date, or currency code.Here are some examples:
 
 -http://localhost:8081/api/v1/quotes/GBP/250  
@@ -36,6 +39,7 @@ java -jar app.jar --server.port=3000
 
 
 How to stop:
+
 To shut down the server, we need to press the CTRL+C combination in the command prompt or manually stop the server if it was launched in an IDE environment, such as IntelliJ.
 
 
