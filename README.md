@@ -14,17 +14,17 @@ java - jar app.jar
 Operations:
 After entering the above command, our server started and we can now use three operations: currency, quotes, difference based on the number of quotations, date, or currency code.Here are some examples:
 
-http://localhost:8081/api/v1/quotes/GBP/250  
+-http://localhost:8081/api/v1/quotes/GBP/250  
 output: Max:5.7338, Min:5.2086 
 
 (/quotes/{code}/{quotationNumber}) after /quotes server takes also currency code and number of last quotations (N) where N<=255 and also N>0
 
-http://localhost:8081/api/v1/difference/GBP/250
+-http://localhost:8081/api/v1/difference/GBP/250
 output: The major difference between the buy and ask rate:0.6311999999999998 
 
 (/difference/{code}/{quotationNumber}) after /difference server takes also currency code and number of last quotations (N) where N<=255 and also N>0
 
-http://localhost:8081/api/v1/currency/GBP/2023-02-03
+-http://localhost:8081/api/v1/currency/GBP/2023-02-03
 output: Average exchange rate: 5.2571 
 
 (/currency/{code}/{date}) after /currency server takes also currency code and date
