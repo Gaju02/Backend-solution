@@ -46,5 +46,6 @@ To shut down the server, we need to press the CTRL+C combination in the command 
 *I have also included a folder with photos showing the process of the server running after entering the above commands. It can be found in the repository in a folder named: photosOfRunningServer :).
 
 
-
+Update: 25.04.2023 15:17 
+Creating the same project, but add Dependency Injection (directory demo_Dependency_Injection) -> Creating NBPService class and add this to NBPController. 
 
